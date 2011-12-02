@@ -1,5 +1,5 @@
 This is a common repo for storing javascript (and some css) vendor libraries
-for use as a submodule across a variety of Open Knowledge Foundatoin (or other)
+for use as a submodule across a variety of Open Knowledge Foundation (or other)
 projects.
 
 ## Repository layout
