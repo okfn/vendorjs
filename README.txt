@@ -24,7 +24,13 @@ Example (jquery)::
 
 To add this to your repository at e.g. directory /vendor do the following::
 
-  git submodule add ....
+  # add it
+  git submodule add https://github.com/okfn/vendorjs {path-for-vendorjs-in-your-local-repo}
+  # commit it
+  git commit -m "Added vendorjs as submodule"
+  # now pull down actual repo content to local
+  git submodule init
+  git submodule update
 
 ## Copyright Licensing
 
